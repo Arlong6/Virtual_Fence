@@ -1,0 +1,6 @@
+pyuic5 -x test.ui -o UI.py
+pyinstaller -F UI.py
+
+pyuic5 -x window_login.ui -o window_login.py
+pyuic5 -x main.ui -o main.py
+pyuic5 -x setup.ui -o setup.py
